@@ -1,0 +1,26 @@
+TechCorp Company Overview
+
+About TechCorp
+TechCorp is a leading technology company founded in 2010, specializing in artificial intelligence, cloud computing, and enterprise software solutions. Our mission is to empower businesses through innovative technology that drives digital transformation.
+
+Company Values
+Innovation: We constantly push the boundaries of what's possible with technology.
+Integrity: We maintain the highest ethical standards in all our business dealings.
+Customer Success: Our customers' success is our success.
+Collaboration: We believe in the power of teamwork and diverse perspectives.
+
+Global Presence
+Headquarters: San Francisco, California
+Employees: 15,000+ worldwide
+Offices: 25 locations across North America, Europe, and Asia
+Annual Revenue: $2.5 billion (2024)
+
+Product Portfolio
+TechCorp offers a comprehensive suite of products including:
+- CloudVault: Enterprise cloud storage and management
+- AI Insights: Machine learning platform for business analytics
+- DevOps Suite: Complete CI/CD and deployment automation tools
+- SecureShield: Cybersecurity and threat protection solutions
+
+Industry Recognition
+TechCorp has been recognized as a leader in cloud computing by Gartner for three consecutive years. We've also received the Innovation Excellence Award from the Technology Leadership Council in 2024.

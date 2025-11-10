@@ -1,12 +1,12 @@
-# 🤖 TechCorp RAG AI Assistant
+# TechCorp RAG AI Assistant 🤖
 
 A production-ready **Retrieval-Augmented Generation (RAG)** system built with Next.js, custom vector database, and Ollama. This AI assistant can answer questions about TechCorp using semantic search over company documents.
 
-> 📚 **Full Setup Guide**: See [docs/FREE_RAG_SETUP.md](docs/FREE_RAG_SETUP.md) for detailed instructions
+> **Full Setup Guide**: See [docs/FREE_RAG_SETUP.md](docs/FREE_RAG_SETUP.md) for detailed instructions
 > 
-> 🚀 **Ollama Setup**: See [docs/OLLAMA_SETUP.md](docs/OLLAMA_SETUP.md) for Ollama installation guide
+> **Ollama Setup**: See [docs/OLLAMA_SETUP.md](docs/OLLAMA_SETUP.md) for Ollama installation guide
 
-## ✨ What You've Built
+## What You've Built ✨
 
 ✅ **Vector Database** - Custom file-based vector store (100% JavaScript, no dependencies!)  
 ✅ **Document Chunking** - Optimal 500-char chunks with 100-char overlap  
@@ -15,7 +15,7 @@ A production-ready **Retrieval-Augmented Generation (RAG)** system built with Ne
 ✅ **RAG Pipeline** - Retrieval → Augmentation → Generation  
 ✅ **Production System** - Complete working AI assistant
 
-## 🏗️ Architecture
+## Architecture 🏗️
 
 ```
 User Query
@@ -31,7 +31,7 @@ OpenAI GPT-4o-mini (Answer Generation)
 Response + Sources
 ```
 
-## 🚀 Quick Start
+## Quick Start  🚀 
 
 ### Prerequisites
 
@@ -98,7 +98,7 @@ Visit [http://localhost:3000](http://localhost:3000) and start asking questions!
 
 **Important**: Make sure Ollama is running (`ollama serve`) before asking questions!
 
-## 📚 Example Queries
+## Example Queries 📚
 
 Try asking:
 - "What is TechCorp's revenue?"
@@ -108,7 +108,7 @@ Try asking:
 - "What are the company values?"
 - "How does the employee stock purchase plan work?"
 
-## 🔧 How It Works
+## How It Works 🔧
 
 ### Document Chunking
 
@@ -148,7 +148,7 @@ const response = await ollama.generate({
 });
 ```
 
-## 📁 Project Structure
+## Project Structure 📁
 
 ```
 fin-ai/
@@ -176,19 +176,19 @@ fin-ai/
 └── package.json
 ```
 
-## 🎨 Adding Your Own Documents
+## Adding Your Own Documents 🎨
 
 1. Add `.txt`, `.md`, or other text files to the `data/` folder
 2. Run the ingestion script: `npx tsx scripts/ingest.ts`
 3. Your documents are now searchable!
 
-## 🔐 Environment Variables
+## Environment Variables  🔐
 
 | Variable | Description | Required |
 |----------|-------------|----------|
 | `OPENAI_API_KEY` | Your OpenAI API key | Yes |
 
-## 🛠️ Tech Stack
+## Tech Stack 🛠️
 
 - **Framework**: Next.js 16 with App Router
 - **Vector DB**: Custom file-based vector store (no external dependencies!)
@@ -197,7 +197,7 @@ fin-ai/
 - **Styling**: Tailwind CSS 4
 - **Language**: TypeScript 5
 
-## 📊 Key Metrics
+## Key Metrics 📊
 
 - **Embedding Dimensions**: 384
 - **Chunk Size**: 500 characters
@@ -205,7 +205,7 @@ fin-ai/
 - **Top-K Results**: 5
 - **Distance Metric**: Cosine similarity
 
-## 🚀 Deployment
+## Deployment 🚀
 
 To deploy this to production:
 
@@ -215,11 +215,11 @@ To deploy this to production:
 4. The vector database will be created automatically on first ingestion
 5. Run `npm run ingest` after deployment to index your documents
 
-## 📝 License
+## License 📝
 
 MIT
 
-## 🙌 What You've Mastered
+## What You've Mastered 🙌
 
 Congratulations! You now have a complete understanding of:
 
